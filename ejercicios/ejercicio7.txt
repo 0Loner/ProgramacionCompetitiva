@@ -1,0 +1,10 @@
+#include <iostream>
+#include <algorithm>
+
+int main() {
+    std::string letters = "ABCDEFGHIJ";
+    do {
+        std::cout << letters << std::endl;
+    } while (std::next_permutation(letters.begin(), letters.end()));
+    return 0;
+}
