@@ -1,0 +1,11 @@
+import java.util.*;  
+
+class Main{         
+	public static void main(String[] args){ 
+		Scanner sc = new Scanner(System.in); //Coste: constante (creación del objeto Scanner) Notación asintótica: O(1)
+		double d = sc.nextDouble(); //Coste: constante (creación del objeto Scanner) Notación asintótica: O(1)
+		System.out.printf("%7.3f\n", d); //Coste: constante (creación del objeto Scanner) Notación asintótica: O(1)
+	}
+}
+
+// 1 + 1 + 1 = O(1)
